@@ -1,0 +1,31 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to Watch videos.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooHyungil/wetube_reloaded-Good.git"
+  },
+  "author": "Nicolas Serrano<hiss0723@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WooHyungil/wetube_reloaded-Good/issues"
+  },
+  "homepage": "https://github.com/WooHyungil/wetube_reloaded-Good#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
