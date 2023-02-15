@@ -9,5 +9,3 @@ userRouter.get("/remove", remove);
 userRouter.get(":id", see);
 
 export default userRouter;
-
-const update = (req, res) => console(req.params);
