@@ -5,7 +5,7 @@ import globalRouter from "./routers/globalRouter";
 import userRouter from "./routers/userRouter";
 import videoRouter from "./routers/videoRouter";
 
-const PORT = 6002;
+const PORT = 4500;
 
 const app = express();
 const logger = morgan("dev"); // 다른 옵션도 있다. 서버의 요청시간, 속도 등등....
